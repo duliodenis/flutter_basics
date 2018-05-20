@@ -10,6 +10,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to the Basics',
       home: Scaffold(
+        appBar: AppBar(
+          title: Text('The Basics'),
+          leading: Icon(Icons.map)
+        ),
         body: Center(
         child: Text('Hello, World'),
     ),
